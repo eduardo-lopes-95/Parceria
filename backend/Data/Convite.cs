@@ -2,7 +2,7 @@
 
 namespace Parceria.Data
 {
-    public class Convite
+    internal sealed class Convite
     {
         [Key]
         public int ConviteId { get; set; }
